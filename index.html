@@ -7,9 +7,45 @@
   <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <title>Frontend Mentor | Multi-step form</title>
+  <link rel="stylesheet" href="src/css/index.css">
 </head>
 
-<body>
+<body class="flex-center">
+  <article class="card | flex">
+    <div class="card__sidebar">
+      <div class="numbered__steps">
+        <div class="numbered__step numbered__step--active | flex">
+          <div class="step__number | flex-center">1</div>
+          <div class="step__details">
+            <p class="step__step">STEP 1</p>
+            <p class="step__desc">YOUR INFO</p>
+          </div>
+        </div>
+        <div class="numbered__step | flex">
+          <div class="step__number | flex-center">2</div>
+          <div class="step__details">
+            <p class="step__step">STEP 2</p>
+            <p class="step__desc">SELECT PLAN</p>
+          </div>
+        </div>
+        <div class="numbered__step | flex">
+          <div class="step__number | flex-center">3</div>
+          <div class="step__details">
+            <p class="step__step">STEP 3</p>
+            <p class="step__desc">ADD-ONS</p>
+          </div>
+        </div>
+        <div class="numbered__step | flex">
+          <div class="step__number | flex-center">4</div>
+          <div class="step__details">
+            <p class="step__step">STEP 4</p>
+            <p class="step__desc">SUMMARY</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card__form"></div>
+  </article>
 </body>
 
 </html>
