@@ -182,6 +182,26 @@ body {
   padding: 1rem;
 }
 
+.form__title {
+  margin-top: 0.25rem;
+  font-size: var(--fs-xxl);
+}
+
+.form__desc {
+  margin-bottom: 1rem;
+  font-size: var(--fs-sm);
+  color: var(--clr-neutral-900);
+}
+
+.form__textbox {
+  margin-bottom: 1.5rem;
+}
+
+.textbox_label {
+  margin-bottom: 0.25rem;
+  font-size: var(--fs-sm);
+}
+
 .textbox__field {
   width: 100%;
 }
