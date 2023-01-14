@@ -47,7 +47,36 @@
         </div>
       </div>
     </div>
-    <div class="card__form"></div>
+    <form class="card__form">
+      <div class="form__page | flex flex-col">
+        <h1 class="form__title">
+          Your info
+        </h1>
+        <p class="form__desc">
+          Please provide your name, email address, and phone number.
+        </p>
+        <div class="form__textboxes">
+          <div class="form__textbox | flex flex-col">
+            <label for="name" class="textbox_label">Name</label>
+            <input type="text" id="name" name="name" class="textbox__field" placeholder="e.g. Eddard Stark">
+          </div>
+          <div class="form__textbox | flex flex-col">
+            <label for="email" class="textbox_label">Email Address</label>
+            <input type="email" id="email" name="email" class="textbox__field" placeholder="e.g. nedstark@stark.com">
+          </div>
+          <div class="form__textbox | flex flex-col">
+            <label for="phone" class="textbox_label">Phone Number</label>
+            <input type="tel" id="phone" name="phone" class="textbox__field" placeholder="e.g. + 1 234 567 890">
+          </div>
+        </div>
+
+        <div class="button-single">
+          <button class="button button-next">
+            Next Page
+          </button>
+        </div>
+      </div>
+    </form>
   </article>
 </body>
 

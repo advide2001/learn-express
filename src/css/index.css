@@ -97,7 +97,10 @@ h6 {
 /* UTILITY CLASSES */
 .flex {
   display: flex;
-  flex-wrap: wrap;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 /* Center the card verticallly and horizontally */
@@ -107,30 +110,47 @@ h6 {
   align-items: center; /* Center items vertically */
 }
 
+/* DEFAULT STYLING */
+body {
+  font-family: var(--ff-primary);
+  font-size: var(--fs-base);
+  font-weight: var(--fw-regular);
+  color: var(--clr-primary-900);
+  background-color: var(--clr-neutral-700);
+}
+
+/* COMPONENTS */
+
+/* CARD COMPONENT */
 .card {
-  width: 65%;
-  height: 70%;
-  padding: 1rem;
-  background-color: goldenrod; /* For testing only */
+  /* width: 65%;
+  height: 75%; */
+  padding: 0.75rem;
+  background-color: var(--clr-neutral-100);
+  border-radius: 0.5rem; /* For testing only */
+  justify-content: space-between;
 }
 
+/* SIDEBAR  */
 .card__sidebar {
-  height: 100%;
-  background-color: royalblue; /* For testing only */
-  /* background-image: url("../../assets/images/bg-sidebar-desktop.svg"); */
+  background-image: url("../../assets/images/bg-sidebar-desktop.svg");
+  background-size: cover; /* this will make the image to cover the complete element */
+  background-repeat: no-repeat; /*this will prevent the image to repeat */
+  border-radius: 0.5rem;
 }
 
-.card__form {
-  height: 100%;
-}
-
+/* NUMBERED LIST COMPONENT */
 .numbered__steps {
   padding: 1rem 3rem 1rem 1rem;
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-medium);
+  color: var(--clr-neutral-100);
+  line-height: 1.1;
 }
 
 .numbered__step {
   align-items: center;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .step__number {
@@ -138,8 +158,30 @@ h6 {
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
+  border: 1px solid var(--clr-neutral-700);
+  color: var(--clr-neutral-100);
 }
 
 .numbered__step--active > .step__number {
-  background-color: lightcoral; /* For testing only */
+  border: none;
+  background-color: var(--clr-neutral-700);
+  color: var(--clr-primary-900);
+}
+
+.step__step {
+  font-size: var(--fs-xs);
+  color: var(--clr-neutral-900);
+}
+
+/* FORM */
+/* .card__form {
+} */
+
+.card__form {
+  margin: 0 3rem;
+  padding: 1rem;
+}
+
+.textbox__field {
+  width: 100%;
 }
