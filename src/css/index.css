@@ -60,3 +60,33 @@ h5,
 h6 {
   overflow-wrap: break-word;
 }
+
+/* UTILITY CLASSES */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Center the card verticallly and horizontally */
+body {
+  display: flex; /* Enable flexbox layout */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+.card {
+  width: 70%; /* For testing purpose */
+  height: 70%; /* For testing purpose */
+  padding: 1rem;
+  background-color: goldenrod;
+}
+
+.card__sidebar {
+  height: 100%;
+  background-color: royalblue;
+  /* background-image: url("../../assets/images/bg-sidebar-desktop.svg"); */
+}
+
+.card__form {
+  height: 100%;
+}
