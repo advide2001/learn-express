@@ -68,25 +68,45 @@ h6 {
 }
 
 /* Center the card verticallly and horizontally */
-body {
+.flex-center {
   display: flex; /* Enable flexbox layout */
   justify-content: center; /* Center items horizontally */
   align-items: center; /* Center items vertically */
 }
 
 .card {
-  width: 70%; /* For testing purpose */
-  height: 70%; /* For testing purpose */
+  width: 65%;
+  height: 70%;
   padding: 1rem;
-  background-color: goldenrod;
+  background-color: goldenrod; /* For testing only */
 }
 
 .card__sidebar {
   height: 100%;
-  background-color: royalblue;
+  background-color: royalblue; /* For testing only */
   /* background-image: url("../../assets/images/bg-sidebar-desktop.svg"); */
 }
 
 .card__form {
   height: 100%;
+}
+
+.numbered__steps {
+  padding: 1rem 3rem 1rem 1rem;
+}
+
+.numbered__step {
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.step__number {
+  margin-right: 1rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.numbered__step--active > .step__number {
+  background-color: lightcoral; /* For testing only */
 }
