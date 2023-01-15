@@ -306,3 +306,31 @@ body {
   color: var(--clr-primary-900);
   font-weight: var(--fw-regular);
 }
+
+/* STYLING THE CONTENTS OF PAGE 3 */
+.form__addon {
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid var(--clr-neutral-900);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.addon__title {
+  font-size: var(--fs-sm);
+  color: var(--clr-primary-900);
+  font-weight: var(--fw-medium);
+}
+
+.addon__details {
+  font-size: var(--fs-xs);
+  color: var(--clr-neutral-900);
+  font-weight: var(--fw-regular);
+}
+
+.addon__price {
+  font-size: var(--fs-base);
+  margin-left: 4rem;
+  font-weight: var(--fw-medium);
+}
