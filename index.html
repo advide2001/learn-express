@@ -48,7 +48,7 @@
       </div>
     </div>
     <form class="card__form">
-      <div class="form__page | flex flex-col">
+      <div class="form__page form__page-1 | flex flex-col hidden">
         <h1 class="form__title">
           Your info
         </h1>
@@ -71,6 +71,52 @@
         </div>
 
         <div class="flex button-group button-single">
+          <button class="button button-next">
+            Next Page
+          </button>
+        </div>
+      </div>
+
+      <div class="form__page form__page-2 | flex flex-col">
+        <h1 class="form__title">Select your plan</h1>
+        <p class="form__desc">You have the option of monthly or yearly billing.</p>
+        <div class="form__plans">
+          <div class="form__plan">
+            <img src="assets/images/icon-arcade.svg" alt="arcade-icon">
+            <div class="plan__desc">
+              <h2 class="plan__title">Arcade</h2>
+              <p class="plan__price">$90/yr</p>
+              <p class="plan__saving">2 months free</p>
+            </div>
+          </div>
+          <div class="form__plan">
+            <img src="assets/images/icon-advanced.svg" alt="advanced-icon">
+            <div class="plan__desc">
+              <h2 class="plan__title">Advanced</h2>
+              <p class="plan__price">$120/yr</p>
+              <p class="plan__saving">2 months free</p>
+            </div>
+          </div>
+          <div class="form__plan">
+            <img src="assets/images/icon-pro.svg" alt="pro-icon">
+            <div class="plan__desc">
+              <h2 class="plan__title">Pro</h2>
+              <p class="plan__price">$150/yr</p>
+              <p class="plan__saving">2 months free</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="toggle-slider | flex">
+          <span>Monthly</span>
+          <span>ADD SWITCH HERE</span>
+          <span>Yearly</span>
+        </div>
+
+        <div class="flex button-group">
+          <button class="button button-prev">
+            Go Back
+          </button>
           <button class="button button-next">
             Next Page
           </button>
