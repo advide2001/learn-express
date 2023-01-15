@@ -242,5 +242,13 @@ body {
 }
 
 .textbox__field {
+  border: 1px solid var(--clr-neutral-700);
   width: 100%;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.25rem;
+  font-size: var(--fs-base);
+}
+
+.textbox__field:active {
+  border: 1px solid var(--clr-primary-900);
 }
