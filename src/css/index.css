@@ -110,6 +110,49 @@ h6 {
   align-items: center; /* Center items vertically */
 }
 
+.button {
+  border-radius: 0.5rem;
+  padding: 0.6rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.button-next {
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-medium);
+  color: var(--clr-neutral-100);
+  background-color: var(--clr-primary-900);
+}
+
+.button-prev {
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-medium);
+  color: var(--clr-neutral-900);
+  background-color: var(--clr-neutral-100);
+}
+
+.button-prev:hover,
+.button-prev:focus,
+.button-prev:active {
+  color: var(--clr-primary-900);
+}
+
+.button-next:hover,
+.button-next:focus,
+.button-next:active {
+  background-color: var(--clr-primary-700);
+}
+
+.button-group {
+  justify-content: space-between;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.button-single {
+  justify-content: flex-end;
+}
+
 /* DEFAULT STYLING */
 body {
   font-family: var(--ff-primary);
@@ -172,10 +215,6 @@ body {
   font-size: var(--fs-xs);
   color: var(--clr-neutral-900);
 }
-
-/* FORM */
-/* .card__form {
-} */
 
 .card__form {
   margin: 0 3rem;
