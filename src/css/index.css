@@ -150,8 +150,6 @@ h6 {
 
 .button-group {
   justify-content: space-between;
-  margin-top: 3rem;
-  margin-bottom: 0.25rem;
 }
 
 .button-single {
@@ -171,8 +169,8 @@ body {
 
 /* CARD COMPONENT */
 .card {
-  /* width: 65%;
-  height: 75%; */
+  width: 60%;
+  height: 65%;
   padding: 0.75rem;
   background-color: var(--clr-neutral-100);
   border-radius: 0.5rem; /* For testing only */
@@ -223,8 +221,14 @@ body {
 
 /* STYLING FORM */
 .card__form {
-  margin: 0 3rem;
+  margin: 0 auto;
   padding: 1rem;
+}
+
+.form__page {
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .form__title {
@@ -261,10 +265,6 @@ body {
 }
 
 /* STYLING THE CONTENTS OF PAGE 2 */
-.form__plans {
-  margin: 1.25rem 0;
-  flex-wrap: wrap;
-}
 
 /* Add margin to every element except the last element */
 .form__plans > *:not(:last-child) {
@@ -285,8 +285,8 @@ body {
 }
 
 .plan__icon {
-  margin-bottom: 3rem;
-  margin-right: 3rem;
+  margin-bottom: 2.5rem;
+  margin-right: 2.5rem;
 }
 
 .plan__title {
