@@ -184,7 +184,7 @@ body {
 
 /* NUMBERED LIST COMPONENT */
 .numbered__steps {
-  padding: 1rem 3rem 1rem 1rem;
+  padding: 2rem 4rem 1rem 1rem;
   font-size: var(--fs-sm);
   font-weight: var(--fw-medium);
   color: var(--clr-neutral-100);
