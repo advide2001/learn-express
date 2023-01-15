@@ -146,7 +146,7 @@ h6 {
 .button-group {
   justify-content: space-between;
   margin-top: 3rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.25rem;
 }
 
 .button-single {
