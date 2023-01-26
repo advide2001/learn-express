@@ -330,7 +330,7 @@ body {
 }
 
 .addon__price {
+  font-weight: var(--fw-medium);
   font-size: var(--fs-base);
   margin-left: 4rem;
-  font-weight: var(--fw-medium);
 }
