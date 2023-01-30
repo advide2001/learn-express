@@ -115,6 +115,12 @@ h6 {
   align-items: center; /* Center items vertically */
 }
 
+.error-message {
+  color: var(--clr-secondary-900);
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-regular);
+}
+
 .button {
   border-radius: 0.5rem;
   padding: 0.6rem 1rem;
